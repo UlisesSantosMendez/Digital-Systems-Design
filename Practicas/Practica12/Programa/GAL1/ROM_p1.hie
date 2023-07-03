@@ -1,0 +1,2 @@
+M1_ROM.vhd #Entity contador 9
+M1_ROM.vhd #Architecture arq_conta contador 19

@@ -1,0 +1,15 @@
+Design: 20:50, miércoles, 27 de enero de 2021
+Design: Opening design "E:\Diseño de Sistemas Digitales\Pràcticas\Practica12\Programa\GAL 3\vhd\ROM2\ROM2.adf"
+ELBREAD: Elaboration process.
+ELBREAD: Error: Architecture 'DSMB' of entity 'marq2' not found in library 'ROM2'.
+ELBREAD: Error: Elaboration process completed with errors.
+Design: Error: Elaboration failed
+Compilation with file reorder...
+File: E:\Diseño de Sistemas Digitales\Pràcticas\Practica12\Programa\GAL 3\vhd\ROM2.vhd
+Compile Entity "marq2"
+Compile Architecture "DSMB" of Entity "marq2"
+Top-Level unit detected
+Entity  =>   marq2
+Compile success 0 Errors 0 Warnings  Analysis time :  3.0 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.2 [s].

@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: E:\Diseño de Sistemas Digitales\Pràcticas\Practica12\Programa\GAL 3\ROM2.vhd
+ Compile Entity "marq2"
+ Compile Architecture "arq_mar2" of Entity "marq2"
+ Top-Level unit detected
+ Entity  =>   marq2
+ Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]

@@ -1,0 +1,40 @@
+Design: 20:17, miércoles, 27 de enero de 2021
+Design: Opening design "E:\Diseño de Sistemas Digitales\Pràcticas\Practica12\Programa\GAL2\vhd\ROMS\ROMS.adf"
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.2 [s].
+Compilation with file reorder...
+File: E:\Diseño de Sistemas Digitales\Pràcticas\Practica12\Programa\GAL2\vhd\ROMS.vhd
+Compile Entity "marq1"
+Compile Architecture "DSMB" of Entity "marq1"
+Top-Level unit detected
+Entity  =>   marq1
+Compile success 0 Errors 0 Warnings  Analysis time :  7.0 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.2 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.2 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.1 [s].
+KERNEL: Kernel process initialization done.
+20:19, miércoles, 27 de enero de 2021
+Simulation has been initialized
+Selected Top-Level: marq1 (DSMB)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: stopped at time: 300 ns
+KERNEL: stopped at time: 400 ns
+KERNEL: stopped at time: 500 ns
+KERNEL: stopped at time: 600 ns
+KERNEL: stopped at time: 700 ns
+KERNEL: stopped at time: 800 ns
+KERNEL: stopped at time: 900 ns
+KERNEL: stopped at time: 1 us
+KERNEL: stopped at time: 1100 ns
+KERNEL: stopped at time: 1200 ns
+KERNEL: stopped at time: 1300 ns
+KERNEL: stopped at time: 1400 ns
+KERNEL: stopped at time: 1500 ns
+KERNEL: stopped at time: 1600 ns
+Simulation has been stopped

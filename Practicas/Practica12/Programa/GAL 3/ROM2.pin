@@ -1,0 +1,22 @@
+Cypress Package: palc22v10d-25pc  PinOut File: ROM2.pin
+
+This file was created on 01/27/2021 at 21:36:01 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [Auto] 
+dir(3) in <> Enabled Normal 2 <> [Auto] 
+dir(2) in <> Enabled Normal 3 <> [Auto] 
+dir(1) in <> Enabled Normal 4 <> [Auto] 
+dir(0) in <> Enabled Normal 5 <> [Auto] 
+clr in <> Enabled Normal 6 <> [Auto] 
+cat(2) inout <> Enabled Normal 14 <> [Auto] 
+display(3) out <> Enabled Normal 15 <> [Auto] 
+display(6) out <> Enabled Normal 16 <> [Auto] 
+display(4) out <> Enabled Normal 17 <> [Auto] 
+display(0) out <> Enabled Normal 18 <> [Auto] 
+cat(0) inout <> Enabled Normal 19 <> [Auto] 
+display(1) out <> Enabled Normal 20 <> [Auto] 
+display(5) out <> Enabled Normal 21 <> [Auto] 
+display(2) out <> Enabled Normal 22 <> [Auto] 
+cat(1) inout <> Enabled Normal 23 <> [Auto] 

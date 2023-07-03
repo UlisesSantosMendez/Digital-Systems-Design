@@ -1,0 +1,2 @@
+ROM2.vhd #Entity marq2 9
+ROM2.vhd #Architecture arq_mar2 marq2 16
