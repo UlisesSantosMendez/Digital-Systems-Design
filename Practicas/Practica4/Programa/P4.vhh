@@ -1,0 +1,8 @@
+ENTITY mealy IS
+    PORT (
+	clk : in std_logic  ; 
+	clr : in std_logic  ; 
+	e : inout std_logic  ; 
+	dis : inout std_logic_vector (6 downto 0)
+    ) ;
+END mealy ;

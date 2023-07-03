@@ -1,0 +1,2 @@
+P4.vhd #Entity mealy 4
+P4.vhd #Architecture macmealy mealy 15

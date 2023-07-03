@@ -1,0 +1,17 @@
+Cypress Package: palc22v10d-25pc  PinOut File: prac4.pin
+
+This file was created on 11/03/2020 at 02:36:37 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [Auto] 
+clr in <> Enabled Normal 2 <> [Auto] 
+e in <> Enabled Normal 11 <> [User] 
+dis(0) out <> Enabled Normal 15 <> [User] 
+dis(1) out <> Enabled Normal 16 <> [User] 
+dis(2) out <> Enabled Normal 17 <> [User] 
+dis(3) out <> Enabled Normal 18 <> [User] 
+dis(4) out <> Enabled Normal 19 <> [User] 
+dis(5) inout <> Enabled Normal 20 <> [User] 
+dis(6) out <> Enabled Normal 21 <> [User] 
+s inout <> Enabled Normal 22 <> [Auto] 
