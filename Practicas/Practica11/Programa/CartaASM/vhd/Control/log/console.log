@@ -1,0 +1,61 @@
+Design: 17:19, miércoles, 27 de enero de 2021
+Design: Opening design "E:\Diseño de Sistemas Digitales\Pràcticas\Practica11\Programa\CartaASM\vhd\Control\Control.adf"
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.2 [s].
+Compilation with file reorder...
+File: E:\Diseño de Sistemas Digitales\Pràcticas\Practica11\Programa\CartaASM\vhd\Control.vhd
+Compile Entity "gal1"
+Compile Architecture "DSMB" of Entity "gal1"
+Top-Level unit detected
+Entity  =>   gal1
+Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.2 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.2 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.1 [s].
+KERNEL: Kernel process initialization done.
+17:31, miércoles, 27 de enero de 2021
+Simulation has been initialized
+Selected Top-Level: gal1 (DSMB)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+Simulation has been stopped
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.2 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.1 [s].
+KERNEL: Kernel process initialization done.
+17:35, miércoles, 27 de enero de 2021
+Simulation has been initialized
+Selected Top-Level: gal1 (DSMB)
+Simulation has been stopped
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.2 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.1 [s].
+KERNEL: Kernel process initialization done.
+19:28, miércoles, 27 de enero de 2021
+Simulation has been initialized
+Selected Top-Level: gal1 (DSMB)
+Simulation has been stopped
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.2 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.1 [s].
+KERNEL: Kernel process initialization done.
+19:56, miércoles, 27 de enero de 2021
+Simulation has been initialized
+Selected Top-Level: gal1 (DSMB)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+Simulation has been stopped

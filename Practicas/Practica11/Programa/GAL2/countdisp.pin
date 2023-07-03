@@ -1,0 +1,18 @@
+Cypress Package: palc22v10d-25pc  PinOut File: countdisp.pin
+
+This file was created on 01/21/2021 at 10:06:25 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [Auto] 
+ec in <> Enabled Normal 3 <> [User] 
+eb in <> Enabled Normal 4 <> [User] 
+lb in <> Enabled Normal 5 <> [User] 
+clr in <> Enabled Normal 13 <> [User] 
+disp(0) out <> Enabled Normal 15 <> [User] 
+disp(1) out <> Enabled Normal 16 <> [User] 
+disp(2) out <> Enabled Normal 17 <> [User] 
+disp(3) out <> Enabled Normal 18 <> [User] 
+disp(4) out <> Enabled Normal 19 <> [User] 
+disp(5) out <> Enabled Normal 20 <> [User] 
+disp(6) inout <> Enabled Normal 21 <> [User] 

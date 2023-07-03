@@ -1,0 +1,2 @@
+countdisp.vhd #Entity gal2 8
+countdisp.vhd #Architecture arq_cont gal2 19

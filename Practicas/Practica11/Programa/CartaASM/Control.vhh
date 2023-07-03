@@ -1,0 +1,14 @@
+ENTITY gal1 IS
+    PORT (
+	clk : in std_logic  ; 
+	clr : in std_logic  ; 
+	ini : in std_logic  ; 
+	z : in std_logic  ; 
+	a0 : in std_logic  ; 
+	ec : inout std_logic  ; 
+	eb : inout std_logic  ; 
+	lb : inout std_logic  ; 
+	la : inout std_logic  ; 
+	ea : inout std_logic 
+    ) ;
+END gal1 ;

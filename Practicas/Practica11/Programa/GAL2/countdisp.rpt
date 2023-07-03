@@ -1,0 +1,333 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  countdisp.vhd
+Options:    -m -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalc22v10d-25pc -b countdisp.vhd -u carta_contador.hie
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Thu Jan 21 10:06:22 2021
+
+Library 'work' => directory 'lc22v10'
+Linking 'c:\ARCHIV~1\warp\bin\std.vhd'.
+Linking 'c:\ARCHIV~1\warp\lib\common\cypress.vhd'.
+Linking 'c:\ARCHIV~1\warp\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'c:\ARCHIV~1\warp\lib\ieee\work'
+Linking 'c:\ARCHIV~1\warp\lib\ieee\work\stdlogic.vif'.
+
+vhdlfe:  No errors.
+
+
+tovif V6.3 IR 35:  High-level synthesis
+Thu Jan 21 10:06:22 2021
+
+Linking 'c:\ARCHIV~1\warp\bin\std.vhd'.
+Linking 'c:\ARCHIV~1\warp\lib\common\cypress.vhd'.
+Linking 'c:\ARCHIV~1\warp\lib\common\work\cypress.vif'.
+Linking 'c:\ARCHIV~1\warp\lib\ieee\work\stdlogic.vif'.
+
+tovif:  No errors.
+
+
+topld V6.3 IR 35:  Synthesis and optimization
+Thu Jan 21 10:06:22 2021
+
+Linking 'c:\ARCHIV~1\warp\bin\std.vhd'.
+Linking 'c:\ARCHIV~1\warp\lib\common\cypress.vhd'.
+Linking 'c:\ARCHIV~1\warp\lib\common\work\cypress.vif'.
+Linking 'c:\ARCHIV~1\warp\lib\ieee\work\stdlogic.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+
+
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 5 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 1 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 10.
+----------------------------------------------------------
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 0 wires.
+------------------------------------------------------
+Created 24 PLD nodes.
+
+topld:  No errors.
+
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN HEADER INFORMATION  (10:06:24)
+
+Input File(s): countdisp.pla
+Device       : C22V10
+Package      : palc22v10d-25pc
+ReportFile   : countdisp.rpt
+
+Program Controls:
+    COMMAND LANGUAGE_VHDL 
+    COMMAND PROPERTY BUS_HOLD ENABLE 
+
+Signal Requests:
+    GROUP USEPOL ALL
+    GROUP FAST_SLEW ALL
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (10:06:24)
+
+Messages:
+  Information: Process virtual 'qb_0D'qb_0D ... expanded.
+  Information: Process virtual 'qb_1D'qb_1D ... expanded.
+  Information: Process virtual 'qb_2D'qb_2D ... expanded.
+  Information: Process virtual 'qb_0' ... converted to NODE.
+  Information: Process virtual 'qb_1' ... converted to NODE.
+  Information: Process virtual 'qb_2' ... converted to NODE.
+  Information: Optimizing logic using best output polarity for signals:
+         disp(0) disp(1) disp(2) disp(4) disp(5) disp(6) qb_0.D qb_1.D qb_2.D
+
+  Information: Selected logic optimization OFF for signals:
+         disp(3) qb_0.AR qb_0.C qb_1.AR qb_1.C qb_2.AR qb_2.C
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (10:06:24)
+
+Messages:
+  Information: Optimizing Banked Preset/Reset requirements.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Equations" icon=FILE_RPT_EQUATION>
+DESIGN EQUATIONS           (10:06:24)
+</CYPRESSTAG>
+
+    /disp(0) =
+          ec * /qb_1.Q * /qb_2.Q 
+
+    disp(1) =
+          ec * /qb_0.Q * /qb_1.Q 
+        + ec * qb_2.Q 
+
+    disp(2) =
+          ec * qb_1.Q * qb_2.Q 
+        + ec * /qb_0.Q * /qb_2.Q 
+
+    disp(3) =
+          disp(6) 
+
+    /disp(4) =
+          /qb_0.Q * qb_1.Q * /qb_2.Q 
+        + /ec 
+
+    disp(5) =
+          ec * /qb_0.Q * /qb_1.Q 
+        + ec * /qb_2.Q 
+
+    disp(6) =
+          ec * /qb_0.Q * /qb_2.Q 
+        + ec * qb_0.Q * qb_2.Q 
+        + ec * qb_1.Q 
+
+    qb_0.D =
+          /eb * /lb * qb_0.Q 
+        + eb * /qb_0.Q * /qb_1.Q 
+        + eb * /qb_0.Q * /qb_2.Q 
+
+    qb_0.AR =
+          clr 
+
+    qb_0.SP =
+          GND
+
+    qb_0.C =
+          clk 
+
+    qb_1.D =
+          eb * qb_1.Q * qb_2.Q 
+        + /eb * /lb * qb_1.Q 
+        + eb * /qb_0.Q * qb_1.Q 
+        + eb * qb_0.Q * /qb_1.Q 
+
+    qb_1.AR =
+          clr 
+
+    qb_1.SP =
+          GND
+
+    qb_1.C =
+          clk 
+
+    qb_2.D =
+          eb * qb_0.Q * qb_1.Q 
+        + /lb * qb_2.Q 
+
+    qb_2.AR =
+          clr 
+
+    qb_2.SP =
+          GND
+
+    qb_2.C =
+          clk 
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN RULE CHECK          (10:06:24)
+
+Messages:
+                 None.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Pinout" icon=FILE_RPT_PINOUT>
+PINOUT INFORMATION   (10:06:24)
+</CYPRESSTAG>
+Messages:
+  Information: Checking for duplicate NODE logic.
+                 None.
+
+
+                                 C22V10
+                 __________________________________________
+            clk =| 1|                                  |24|* not used       
+       not used *| 2|                                  |23|= (qb_0)         
+             ec =| 3|                                  |22|= (qb_2)         
+             eb =| 4|                                  |21|= disp(6)        
+             lb =| 5|                                  |20|= disp(5)        
+       not used *| 6|                                  |19|= disp(4)        
+       not used *| 7|                                  |18|= disp(3)        
+       not used *| 8|                                  |17|= disp(2)        
+       not used *| 9|                                  |16|= disp(1)        
+       not used *|10|                                  |15|= disp(0)        
+       not used *|11|                                  |14|= (qb_1)         
+       not used *|12|                                  |13|= clr            
+                 __________________________________________
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Utilization" icon=FILE_RPT_UTILIZATION>
+RESOURCE UTILIZATION (10:06:24)
+</CYPRESSTAG>
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | Dedicated Inputs   |    4  |   11  |
+                 | Clock/Inputs       |    1  |    1  |
+                 | I/O Macrocells     |   10  |   10  |
+                 ______________________________________
+                                          15  /   22   = 68  %
+
+
+  Information: Output Logic Product Term Utilization.
+
+                  Node#  Output Signal Name  Used   Max
+                 ________________________________________
+                 | 14  |  qb_1            |   4  |   8  |
+                 | 15  |  disp(0)         |   1  |  10  |
+                 | 16  |  disp(1)         |   2  |  12  |
+                 | 17  |  disp(2)         |   2  |  14  |
+                 | 18  |  disp(3)         |   1  |  16  |
+                 | 19  |  disp(4)         |   2  |  16  |
+                 | 20  |  disp(5)         |   2  |  14  |
+                 | 21  |  disp(6)         |   3  |  12  |
+                 | 22  |  qb_2            |   2  |  10  |
+                 | 23  |  qb_0            |   3  |   8  |
+                 | 25  |  Unused          |   0  |   1  |
+                 ________________________________________
+                                             22  / 121   = 18  %
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+JEDEC ASSEMBLE             (10:06:24)
+
+Messages:
+  Information: Output file 'countdisp.pin' created.
+  Information: Output file 'countdisp.jed' created.
+
+  Usercode:    
+  Checksum:    9C8B
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully at 10:06:25
