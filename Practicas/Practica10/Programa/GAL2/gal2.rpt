@@ -1,0 +1,413 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  gal2.vhd
+Options:    -m -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalce22v10-15pc -b gal2.vhd -u Saldisp.hie
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Fri Dec 11 02:52:32 2020
+
+Library 'work' => directory 'lc22v10'
+Linking 'c:\ARCHIV~1\warp\bin\std.vhd'.
+Linking 'c:\ARCHIV~1\warp\lib\common\cypress.vhd'.
+Linking 'c:\ARCHIV~1\warp\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'c:\ARCHIV~1\warp\lib\ieee\work'
+Linking 'c:\ARCHIV~1\warp\lib\ieee\work\stdlogic.vif'.
+
+vhdlfe:  No errors.
+
+
+tovif V6.3 IR 35:  High-level synthesis
+Fri Dec 11 02:52:34 2020
+
+Linking 'c:\ARCHIV~1\warp\bin\std.vhd'.
+Linking 'c:\ARCHIV~1\warp\lib\common\cypress.vhd'.
+Linking 'c:\ARCHIV~1\warp\lib\common\work\cypress.vif'.
+Linking 'c:\ARCHIV~1\warp\lib\ieee\work\stdlogic.vif'.
+
+tovif:  No errors.
+
+
+topld V6.3 IR 35:  Synthesis and optimization
+Fri Dec 11 02:52:34 2020
+
+Linking 'c:\ARCHIV~1\warp\bin\std.vhd'.
+Linking 'c:\ARCHIV~1\warp\lib\common\cypress.vhd'.
+Linking 'c:\ARCHIV~1\warp\lib\common\work\cypress.vif'.
+Linking 'c:\ARCHIV~1\warp\lib\ieee\work\stdlogic.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+
+
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 12 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 5 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 10.
+----------------------------------------------------------
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 0 wires.
+------------------------------------------------------
+Created 36 PLD nodes.
+
+topld:  No errors.
+
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN HEADER INFORMATION  (02:52:36)
+
+Input File(s): gal2.pla
+Device       : C22V10
+Package      : palce22v10-15pc
+ReportFile   : gal2.rpt
+
+Program Controls:
+    COMMAND LANGUAGE_VHDL 
+    COMMAND PROPERTY BUS_HOLD ENABLE 
+
+Signal Requests:
+    GROUP USEPOL ALL
+    GROUP FAST_SLEW ALL
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (02:52:36)
+
+Messages:
+  Information: Optimizing logic using best output polarity for signals:
+         display(0) display(1) display(2) display(3) display(4) display(5)
+         display(6)
+
+  Information: Selected logic optimization OFF for signals:
+         cat(0).D cat(0).AP cat(0).C cat(1).D cat(1).AP cat(1).C cat(2).D
+         cat(2).AR cat(2).C
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (02:52:36)
+
+Messages:
+  Information: Optimizing Banked Preset/Reset requirements.
+  Information: Selecting D register equation as minimal for signal cat(2)
+  Information: Inverting Preset/Reset & output logic polarity for cat(1).
+  Information: Selecting D register equation as minimal for signal cat(1)
+  Information: Inverting Preset/Reset & output logic polarity for cat(0).
+  Information: Selecting D register equation as minimal for signal cat(0)
+  Information: Optimizing logic without changing polarity for signals:
+         display(0) display(1) display(2) display(3) display(4) display(5)
+         display(6)
+
+  Information: Selected logic optimization OFF for signals:
+         cat(0).D cat(0).AR cat(0).SP cat(0).C cat(1).D cat(1).AR cat(1).SP
+         cat(1).C cat(2).D cat(2).AR cat(2).SP cat(2).C
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (02:52:36)
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Equations" icon=FILE_RPT_EQUATION>
+DESIGN EQUATIONS           (02:52:36)
+</CYPRESSTAG>
+
+    /cat(0).D =
+          /cat(1).Q 
+
+    cat(0).AR =
+          clr 
+
+    cat(0).SP =
+          GND
+
+    cat(0).C =
+          clk 
+
+    /cat(1).D =
+          /cat(2).Q 
+
+    cat(1).AR =
+          clr 
+
+    cat(1).SP =
+          GND
+
+    cat(1).C =
+          clk 
+
+    cat(2).D =
+          cat(0).Q 
+
+    cat(2).AR =
+          clr 
+
+    cat(2).SP =
+          GND
+
+    cat(2).C =
+          clk 
+
+    /display(0) =
+          /dec(1) * /dec(2) * /uni(1) * /uni(2) * /uni(3) 
+        + cat(1).Q * /uni(1) * /uni(2) * /uni(3) 
+        + cat(0).Q * /dec(1) * /dec(2) 
+        + cat(0).Q * cat(1).Q 
+
+    display(1) =
+          /cat(0).Q * /dec(0) * /uni(0) * uni(2) 
+        + /cat(1).Q * /dec(0) * dec(2) * /uni(0) 
+        + /cat(0).Q * /dec(1) * /uni(1) * uni(2) 
+        + /cat(1).Q * /dec(1) * dec(2) * /uni(1) 
+        + /dec(0) * /dec(1) * /uni(0) * /uni(1) 
+        + cat(0).Q * /dec(0) * dec(2) 
+        + cat(0).Q * /dec(1) * dec(2) 
+        + cat(0).Q * /dec(0) * /dec(1) 
+        + cat(1).Q * /uni(0) * uni(2) 
+        + cat(1).Q * /uni(1) * uni(2) 
+        + cat(1).Q * /uni(0) * /uni(1) 
+        + cat(0).Q * cat(1).Q 
+        + /cat(0).Q * uni(3) 
+
+    /display(2) =
+          cat(0).Q * /cat(1).Q * /dec(1) * dec(2) 
+        + /cat(0).Q * cat(1).Q * /uni(1) * uni(2) 
+        + /cat(0).Q * /dec(1) * /uni(1) * uni(2) 
+        + /cat(1).Q * /dec(1) * dec(2) * /uni(1) 
+        + /cat(0).Q * uni(0) 
+        + /cat(1).Q * dec(0) 
+
+    /display(3) =
+          /cat(0).Q * /dec(0) * /dec(1) * /uni(0) * /uni(1) * uni(2) 
+        + /cat(1).Q * /dec(0) * /dec(1) * dec(2) * /uni(0) * /uni(1) 
+        + /cat(0).Q * /dec(1) * /dec(2) * uni(0) * /uni(1) * /uni(2) 
+        + /cat(1).Q * dec(0) * /dec(1) * /dec(2) * /uni(1) * /uni(2) 
+        + /cat(0).Q * /cat(1).Q * dec(2) * uni(0) * uni(1) 
+        + /cat(0).Q * /cat(1).Q * dec(1) * uni(0) * uni(2) 
+        + /cat(0).Q * /cat(1).Q * dec(1) * dec(2) * uni(0) 
+        + /cat(0).Q * /cat(1).Q * dec(0) * uni(1) * uni(2) 
+        + /cat(0).Q * /cat(1).Q * dec(0) * dec(2) * uni(1) 
+        + /cat(0).Q * /cat(1).Q * dec(0) * dec(1) * uni(2) 
+        + cat(0).Q * /cat(1).Q * /dec(0) * /dec(1) * dec(2) 
+        + cat(0).Q * /cat(1).Q * dec(0) * /dec(1) * /dec(2) 
+        + /cat(0).Q * cat(1).Q * /uni(0) * /uni(1) * uni(2) 
+        + /cat(0).Q * cat(1).Q * uni(0) * /uni(1) * /uni(2) 
+        + /cat(0).Q * uni(0) * uni(1) * uni(2) 
+        + /cat(1).Q * dec(0) * dec(1) * dec(2) 
+
+    /display(4) =
+          /cat(0).Q * /dec(0) * /dec(2) * /uni(0) * uni(1) * /uni(2) 
+        + /cat(1).Q * /dec(0) * dec(1) * /dec(2) * /uni(0) * /uni(2) 
+        + cat(0).Q * /cat(1).Q * /dec(0) * dec(1) * /dec(2) 
+        + /cat(0).Q * cat(1).Q * /uni(0) * uni(1) * /uni(2) 
+
+    display(5) =
+          /cat(0).Q * /cat(1).Q * dec(1) * uni(0) 
+        + /cat(0).Q * /cat(1).Q * dec(0) * uni(1) 
+        + /dec(0) * /dec(1) * /uni(0) * /uni(1) 
+        + /cat(0).Q * uni(0) * uni(1) 
+        + /cat(1).Q * dec(0) * dec(1) 
+        + cat(0).Q * /dec(0) * /dec(1) 
+        + cat(1).Q * /uni(0) * /uni(1) 
+        + cat(0).Q * cat(1).Q 
+        + cat(0).Q * /dec(2) 
+        + cat(1).Q * /uni(2) 
+        + /dec(2) * /uni(2) 
+
+    /display(6) =
+          /cat(0).Q * /dec(0) * /dec(1) * /uni(0) * /uni(1) * uni(2) * 
+          /uni(3) 
+        + /cat(1).Q * /dec(0) * /dec(1) * dec(2) * /uni(0) * /uni(1) * 
+          /uni(3) 
+        + /cat(0).Q * /dec(1) * /dec(2) * uni(0) * /uni(1) * /uni(2) * 
+          /uni(3) 
+        + /cat(1).Q * dec(0) * /dec(1) * /dec(2) * /uni(1) * /uni(2) * 
+          /uni(3) 
+        + /cat(0).Q * cat(1).Q * /uni(0) * /uni(1) * uni(2) * /uni(3) 
+        + /cat(0).Q * cat(1).Q * uni(0) * /uni(1) * /uni(2) * /uni(3) 
+        + cat(0).Q * /cat(1).Q * /dec(0) * /dec(1) * dec(2) 
+        + cat(0).Q * /cat(1).Q * dec(0) * /dec(1) * /dec(2) 
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN RULE CHECK          (02:52:36)
+
+Messages:
+                 None.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Pinout" icon=FILE_RPT_PINOUT>
+PINOUT INFORMATION   (02:52:36)
+</CYPRESSTAG>
+Messages:
+  Information: Checking for duplicate NODE logic.
+                 None.
+
+
+                                 C22V10
+                 __________________________________________
+            clk =| 1|                                  |24|* not used       
+       not used *| 2|                                  |23|= cat(1)         
+       not used *| 3|                                  |22|= cat(2)         
+       not used *| 4|                                  |21|= display(6)     
+         dec(2) =| 5|                                  |20|= display(1)     
+         dec(1) =| 6|                                  |19|= display(4)     
+         dec(0) =| 7|                                  |18|= display(3)     
+         uni(3) =| 8|                                  |17|= display(2)     
+         uni(2) =| 9|                                  |16|= display(5)     
+         uni(1) =|10|                                  |15|= display(0)     
+         uni(0) =|11|                                  |14|= cat(0)         
+       not used *|12|                                  |13|= clr            
+                 __________________________________________
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Utilization" icon=FILE_RPT_UTILIZATION>
+RESOURCE UTILIZATION (02:52:36)
+</CYPRESSTAG>
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | Dedicated Inputs   |    8  |   11  |
+                 | Clock/Inputs       |    1  |    1  |
+                 | I/O Macrocells     |   10  |   10  |
+                 ______________________________________
+                                          19  /   22   = 86  %
+
+
+  Information: Output Logic Product Term Utilization.
+
+                  Node#  Output Signal Name  Used   Max
+                 ________________________________________
+                 | 14  |  cat(0)          |   1  |   8  |
+                 | 15  |  display(0)      |   4  |  10  |
+                 | 16  |  display(5)      |  11  |  12  |
+                 | 17  |  display(2)      |   6  |  14  |
+                 | 18  |  display(3)      |  16  |  16  |
+                 | 19  |  display(4)      |   4  |  16  |
+                 | 20  |  display(1)      |  13  |  14  |
+                 | 21  |  display(6)      |   8  |  12  |
+                 | 22  |  cat(2)          |   1  |  10  |
+                 | 23  |  cat(1)          |   1  |   8  |
+                 | 25  |  Unused          |   0  |   1  |
+                 ________________________________________
+                                             65  / 121   = 53  %
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+JEDEC ASSEMBLE             (02:52:36)
+
+Messages:
+  Information: Output file 'gal2.pin' created.
+  Information: Output file 'gal2.jed' created.
+
+  Usercode:    
+  Checksum:    86A1
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully at 02:52:36
