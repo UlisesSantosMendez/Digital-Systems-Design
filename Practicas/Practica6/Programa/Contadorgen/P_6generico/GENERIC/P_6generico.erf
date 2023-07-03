@@ -1,0 +1,7 @@
+MESSAGE "File: E:\Diseño de Sistemas Digitales\Pràcticas\Practica6\Programa\Contadorgen\P_6generico.vhd" 
+MESSAGE "Compile Entity "counter"" 
+ERROR COMP96_0078: "Unknown identifier "pin_numbers"." "E:\Diseño de Sistemas Digitales\Pràcticas\Practica6\Programa\Contadorgen\P_6generico.vhd" 15 3
+ERROR COMP96_0088: "The attribute designator must denote an attribute." "E:\Diseño de Sistemas Digitales\Pràcticas\Practica6\Programa\Contadorgen\P_6generico.vhd" 15 3
+MESSAGE "Compile Architecture "arq_count" of Entity "counter"" 
+ERROR COMP96_0056: "Cannot find referenced entity declaration "counter"." "E:\Diseño de Sistemas Digitales\Pràcticas\Practica6\Programa\Contadorgen\P_6generico.vhd" 21 1
+MESSAGE "Compile failure 3 Errors 0 Warnings  Analysis time :  0.3 [s]" 

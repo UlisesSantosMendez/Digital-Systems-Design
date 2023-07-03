@@ -1,0 +1,6 @@
+MESSAGE "File: E:\Diseño de Sistemas Digitales\Pràcticas\Practica6\Programa\Contador7\vhd\P_6.vhd" 
+MESSAGE "Compile Entity "counter"" 
+MESSAGE "Compile Architecture "DSMB" of Entity "counter"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   counter" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]" 
