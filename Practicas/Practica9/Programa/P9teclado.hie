@@ -1,0 +1,2 @@
+teclado.vhd #Entity teclado 7
+teclado.vhd #Architecture arqteclado teclado 21
