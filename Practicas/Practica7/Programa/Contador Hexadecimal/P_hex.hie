@@ -1,0 +1,2 @@
+cont_hex.vhd #Entity chexad 7
+cont_hex.vhd #Architecture arqchex chexad 17
